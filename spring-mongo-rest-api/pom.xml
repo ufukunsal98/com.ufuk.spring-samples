@@ -6,7 +6,7 @@
     <artifactId>spring-mongo-rest-api</artifactId>
     <groupId>org.example</groupId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>demo</name>
+    <name>spring-mongo-rest-api</name>
     <description>Demo project for Spring Boot</description>
     <modelVersion>4.0.0</modelVersion>
     <properties>

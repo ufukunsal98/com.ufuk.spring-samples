@@ -14,6 +14,7 @@
         <module>spring-postgreSQL</module>
         <module>spring-rabbitmq-example</module>
         <module>sprin-boot-dockerization-example</module>
+        <module>spring-boot-rest-template</module>
     </modules>
 
 

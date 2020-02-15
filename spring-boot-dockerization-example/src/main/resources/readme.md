@@ -1,4 +1,4 @@
-
+mvn clean install komutunu çalıştırmalıyız
 ### dockerfile
 FROM
 The base image for building a new image. This command must be on top of the dockerfile.

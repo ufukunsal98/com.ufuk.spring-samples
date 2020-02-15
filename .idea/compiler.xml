@@ -7,16 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elastic-search" />
+        <module name="spring-boot-rest-template" />
         <module name="spring-mongo-rest-api" />
-        <module name="sprin-boot-dockerization-example" />
-        <module name="spring-postgreSQL" />
         <module name="spring-rabbitMQ-example" />
+        <module name="spring-postgreSQL" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-dockerization-example" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="sprin-boot-dockerization-example" options="-parameters" />
+      <module name="spring-boot-dockerization-example" options="-parameters" />
+      <module name="spring-boot-rest-template" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgreSQL" options="-parameters" />
