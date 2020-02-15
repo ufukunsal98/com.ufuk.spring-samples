@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="spring-elastic-search" />
         <module name="spring-mongo-rest-api" />
+        <module name="sprin-boot-dockerization-example" />
         <module name="spring-postgreSQL" />
         <module name="spring-rabbitMQ-example" />
       </profile>
@@ -15,6 +16,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="sprin-boot-dockerization-example" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgreSQL" options="-parameters" />
