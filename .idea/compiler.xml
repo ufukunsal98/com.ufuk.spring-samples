@@ -11,6 +11,7 @@
         <module name="spring-boot-dockerization-example" />
         <module name="spring-postgreSQL" />
         <module name="spring-rabbitMQ-example" />
+        <module name="spring-boot-pagination" />
         <module name="spring-boot-rest-template" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-boot-dockerization-example" options="-parameters" />
+      <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />

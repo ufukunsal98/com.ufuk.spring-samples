@@ -15,6 +15,7 @@
         <module>spring-rabbitmq-example</module>
         <module>spring-boot-dockerization-example</module>
         <module>spring-boot-rest-template</module>
+        <module>spring-boot-pagination</module>
     </modules>
 
 
