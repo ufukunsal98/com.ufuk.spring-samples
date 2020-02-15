@@ -12,6 +12,7 @@
         <module>spring-mongo-rest-api</module>
         <module>spring-elastic-search</module>
         <module>spring-postgreSQL</module>
+        <module>spring-rabbitmq-example</module>
     </modules>
 
 
