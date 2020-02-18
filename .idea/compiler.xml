@@ -9,6 +9,7 @@
         <module name="spring-mongo-rest-api" />
         <module name="spring-elastic-search" />
         <module name="spring-boot-dockerization-example" />
+        <module name="spring-boot-websocket" />
         <module name="spring-postgreSQL" />
         <module name="spring-rabbitMQ-example" />
         <module name="spring-boot-pagination" />
@@ -21,6 +22,7 @@
       <module name="spring-boot-dockerization-example" options="-parameters" />
       <module name="spring-boot-pagination" options="-parameters" />
       <module name="spring-boot-rest-template" options="-parameters" />
+      <module name="spring-boot-websocket" options="-parameters" />
       <module name="spring-elastic-search" options="-parameters" />
       <module name="spring-mongo-rest-api" options="-parameters" />
       <module name="spring-postgreSQL" options="-parameters" />
